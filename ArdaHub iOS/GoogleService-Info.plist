@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1078946962457-ob6e3fh0if1698p1hu98ahdbctn2309t.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1078946962457-ob6e3fh0if1698p1hu98ahdbctn2309t</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCXlRGI4ymWQLu8lxBnptEW70Icx701UlM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1078946962457</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ardagurpinar.ArdaHub-iOS</string>
+	<key>PROJECT_ID</key>
+	<string>ardahub-ios</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ardahub-ios.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1078946962457:ios:0d83fdae7ffe3a74b69e88</string>
+</dict>
+</plist>
