@@ -15,7 +15,7 @@ class LogInViewController: UIViewController {
     
     
     override func viewWillAppear(_ animated: Bool) {
-        emailText.text = ""
+        emailText.text = "".lowercased()
         passwordText.text = ""
     }
     
@@ -32,7 +32,7 @@ class LogInViewController: UIViewController {
     
     @IBAction func loginPressed(_ sender: UIButton) {
      
-        let user = UserInfo(firstName: "", lastName: "", email: emailText.text, password: passwordText.text)
+        let user = UserInfo(firstName: "", lastName: "", email: emailText.text?.lowercased(), password: passwordText.text)
         
         if let email = user.email, let password = user.password {
             
@@ -55,7 +55,7 @@ class LogInViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        let user = UserInfo(firstName: "", lastName: "", email: emailText.text, password: passwordText.text)
+        let user = UserInfo(firstName: "", lastName: "", email: emailText.text?.lowercased(), password: passwordText.text)
         
         if let email = user.email, let vc = segue.destination as? FinalViewController {
             //self.isValid = true

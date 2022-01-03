@@ -35,7 +35,7 @@ class SignUpViewController: UIViewController {
         
         
         
-        let user = UserInfo(firstName: self.firstNameText.text, lastName: self.lastNameText.text, email: self.emailText.text, password: self.passwordText.text)
+        let user = UserInfo(firstName: self.firstNameText.text, lastName: self.lastNameText.text, email: self.emailText.text?.lowercased(), password: self.passwordText.text)
         
         
         if let email = user.email, let password = user.password {
