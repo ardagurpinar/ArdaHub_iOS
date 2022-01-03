@@ -21,7 +21,7 @@ class FinalViewController: UIViewController {
         
         tableView.dataSource = self
         tableView.rowHeight = UITableView.automaticDimension
-        tableView.estimatedRowHeight = 100
+        tableView.estimatedRowHeight = 130
         // Do any additional setup after loading the view.
         getPost()
     }
